@@ -1,0 +1,81 @@
+VBox {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Trebuchet MS";
+    -fx-background-color: rgb(34, 32, 35); /*linear-gradient(to bottom, #333333, #595959);*/
+}
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header{
+    -fx-background-color: rgb(34, 32, 35); /* linear-gradient(to top, #333333, #595959);*/
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: rgb(91, 79, 78);
+}
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-padding: 15 0 15 0;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 9 0 6 0;
+}
+#entryColumn.table-cell {
+    -fx-background-color: rgb(34, 32, 35);
+    -fx-text-fill: rgb(239, 141, 63)
+}
+
+.table-row-cell {
+    -fx-border-color: rgb(91, 79, 78);
+    -fx-border-width: 1 0 0 0;
+    -fx-background-color: linear-gradient(from 0% 0% to 75% 75%, rgb(39, 44, 57), rgb(34, 32, 35))
+}
+
+.table-view .table-column {
+  -fx-alignment: CENTER;
+}
+
+.button {
+    -fx-background-radius: 8;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+}
+.button:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#addNewLineButton, #removeLastLineButton {
+    -fx-background-insets: 0,0 0 2 0, 0 0 2 0, 0 0 2 0;
+    -fx-padding: 8 15 15 15;
+    -fx-font-size: 0.9em;
+    -fx-font-weight: bold;
+}
+#logLabel {
+    -fx-font-size: 1.3em;
+}
+
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+#titleLabel {
+    -fx-font-size: 1.6em;
+    -fx-text-fill: rgb(65, 57, 56);
+}

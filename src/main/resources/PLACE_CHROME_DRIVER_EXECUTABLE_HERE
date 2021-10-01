@@ -1,0 +1,4 @@
+Navigate to https://chromedriver.chromium.org/downloads and find the version of ChromeDriver that matches your operating system and your version of chrome.
+
+(You can find which version of Chrome you are using by clicking the three dots at the top right of the Chrome window, then
+going to Help > About Google Chrome. You should for example see something like 'Version 94.0.4606.61 (Official Build) (arm64)').
